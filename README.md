@@ -1,4 +1,4 @@
-<img src="./src/assets/mr-doctor.jpeg" width="35%">
+<img src="./src/assets/images/mr-doctor.jpeg" width="35%">
 
 # Top Secret - Physician Calendar
 
