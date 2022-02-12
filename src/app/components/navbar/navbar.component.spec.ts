@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { By } from '@angular/platform-browser';
 
 import { NavbarComponent } from './navbar.component';
 
@@ -24,4 +25,9 @@ describe('NavbarComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render the text - Physician Calendar', () => {
+    const title = fixture.debugElement.query(By.css('.physician'));
+    expect(title.nativeElement.innerHTML).toContain('Physician Calendar')
+  })
 });

@@ -1,0 +1,41 @@
+<div *ngFor="let doctor of doctor$" class="mb-4 mt-4">
+    <mat-card>
+        <mat-card-title class="physician-name">
+            Physician: {{ doctor.name }}
+        </mat-card-title>
+        <mat-card-actions class="mt-4">
+            <button
+                [disabled]="displayState"
+                mat-button  
+                color="primary"
+                (click)="handleAppointmentView(doctor.id)">
+                View Appointments
+            </button>
+        </mat-card-actions>
+    </mat-card>
+    <div *ngIf="appointment$.length">
+        <div *ngFor="let appt of appointment$; let first = first">
+            <div *ngIf="doctor.id === appt.doctorId && displayState">
+                <mat-card class="mb-4">
+                    <mat-card-actions>
+                        <button
+                            *ngIf="first"
+                            mat-button color="accent"
+                            (click)="handleDisplayState()">
+                            Hide Appointments
+                        </button>
+                    </mat-card-actions>
+                </mat-card>
+                <mat-card>
+                    <mat-card-subtitle>
+                        Patient Name: {{ appt.name }}
+                    </mat-card-subtitle>
+                    <mat-card-content>
+                        <p>Appt Time: {{ appt.time }}</p>
+                        <p>Appt Type: {{ appt.type }}</p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,30 +1,27 @@
-# Nightchart
+<img src="./src/assets/mr-doctor.jpeg" width="35%">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+# Top Secret - Physician Calendar
 
-## Development server
+## Project Summary
 
-Run `npm run start` for a dev server. Navigate to `http://localhost:4201/`. The app will automatically reload if you change any of the source files.
+We need a way to review calendars of physicians using the Top Secret platform to
+ensure they’re being imported correctly from the physician’s existing system of record. The task
+is to build a web back-end that will return a list of physicians and a list of today’s appointments
+for a selected physician, and a corresponding front-end to render the data.
 
-## Backend server
+This application was created using `Angular`.
 
-Run `json-server --watch db.json` for a backend server. Navigate to `http://localhost:3000/`.
+## Setup
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. `fork` and `clone` this repository.
+2. `cd` into the project directory.
+3. Run `npm install` to install current dependencies.
+4. Run `npm run start` for a dev server. Navigate to `http://localhost:4201/`
+5. Run `json-server --watch db.json` to establish our fake REST API. Data can be seen at `http://localhost:3000/`
 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 

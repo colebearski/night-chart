@@ -1,126 +1,162 @@
 {
-  "posts": [
+  "doctors": [
     {
       "id": 1,
-      "title": "Howdy",
-      "author": "Jake Tapper"
+      "name": "Phil Philips"
     },
     {
       "id": 2,
-      "title": "Hello",
-      "author": "John Snow"
+      "name": "Steve Stevenson"
     },
     {
       "id": 3,
-      "title": "Whats Up",
-      "author": "Donald Trump"
+      "name": "Ron Ronald"
     },
     {
       "id": 4,
-      "title": "How You Doing",
-      "author": "Elon Musk"
+      "name": "Rick Ricky"
     }
   ],
-  "comments": [
+  "appointments": [
     {
       "id": 1,
-      "postId": 1,
-      "body": "Cool comment"
+      "doctorId": 1,
+      "name": "Bill Gates",
+      "time": "9:00AM",
+      "type": "New Patient"
     },
     {
       "id": 2,
-      "postId": 1,
-      "body": "Neat comment"
+      "doctorId": 1,
+      "name": "Sandy Dusk",
+      "time": "12:00PM",
+      "type": "Follow Up"
     },
     {
       "id": 3,
-      "postId": 1,
-      "body": "Super comment"
+      "doctorId": 1,
+      "name": "Leroy Brown",
+      "time": "1:00PM",
+      "type": "New Patient"
     },
     {
       "id": 4,
-      "postId": 1,
-      "body": "Awesome comment"
+      "doctorId": 1,
+      "name": "Wolff Blitz",
+      "time": "2:30PM",
+      "type": "New Patient"
     },
     {
       "id": 5,
-      "postId": 1,
-      "body": "Very cool comment"
+      "doctorId": 1,
+      "name": "Clint Darrow",
+      "time": "4:00PM",
+      "type": "Follow Up"
     },
     {
       "id": 6,
-      "postId": 2,
-      "body": "Hit 2 Cool comment"
+      "doctorId": 2,
+      "name": "Elon Musk",
+      "time": "10:00AM",
+      "type": "New Patient"
     },
     {
       "id": 7,
-      "postId": 2,
-      "body": "Hit 2 Neat comment"
+      "doctorId": 2,
+      "name": "Britney Spears",
+      "time": "11:00AM",
+      "type": "Follow Up"
     },
     {
       "id": 8,
-      "postId": 2,
-      "body": "Hit 2 Super comment"
+      "doctorId": 2,
+      "name": "Julius Ceaser",
+      "time": "12:00PM",
+      "type": "New Patient"
     },
     {
       "id": 9,
-      "postId": 2,
-      "body": "Hit 2 Awesome comment"
+      "doctorId": 2,
+      "name": "Dorian Grey",
+      "time": "2:00PM",
+      "type": "Baby"
     },
     {
       "id": 10,
-      "postId": 2,
-      "body": "Hit 2 Very cool comment"
+      "doctorId": 2,
+      "name": "Michael Angelo",
+      "time": "3:00PM",
+      "type": "Follow Up"
     },
     {
       "id": 11,
-      "postId": 3,
-      "body": "Hit 3 Cool comment"
+      "doctorId": 3,
+      "name": "Shake Speare",
+      "time": "8:30AM",
+      "type": "New Patient"
     },
     {
       "id": 12,
-      "postId": 3,
-      "body": "Hit 3 Neat comment"
+      "doctorId": 3,
+      "name": "Elmer Fudd",
+      "time": "11:00AM",
+      "type": "New Patient"
     },
     {
       "id": 13,
-      "postId": 3,
-      "body": "Hit 3 Super comment"
+      "doctorId": 3,
+      "name": "Amelia Earnest",
+      "time": "12:00PM",
+      "type": "Airplane Accident"
     },
     {
       "id": 14,
-      "postId": 3,
-      "body": "Hit 3 Awesome comment"
+      "doctorId": 3,
+      "name": "Dirk Diggler",
+      "time": "2:00PM",
+      "type": "Movie Star"
     },
     {
       "id": 15,
-      "postId": 3,
-      "body": "Hit 3 Very cool comment"
+      "doctorId": 3,
+      "name": "Wayne Brady",
+      "time": "2:30PM",
+      "type": "Follow Up"
     },
     {
       "id": 16,
-      "postId": 4,
-      "body": "Hit 4 Cool comment"
+      "doctorId": 4,
+      "name": "Tom Hanks",
+      "time": "11:00AM",
+      "type": "New Patient"
     },
     {
       "id": 17,
-      "postId": 4,
-      "body": "Hit 4 Neat comment"
+      "doctorId": 4,
+      "name": "George Washington",
+      "time": "12:00PM",
+      "type": "First President"
     },
     {
       "id": 18,
-      "postId": 4,
-      "body": "Hit 4 Super comment"
+      "doctorId": 4,
+      "name": "Thomas Jefferson",
+      "time": "12:00PM",
+      "type": "Old Age"
     },
     {
       "id": 19,
-      "postId": 4,
-      "body": "Hit 4 Awesome comment"
+      "doctorId": 4,
+      "name": "Randy Savage",
+      "time": "3:00PM",
+      "type": "Follow Up"
     },
     {
       "id": 20,
-      "postId": 4,
-      "body": "Hit 4 Very cool comment"
+      "doctorId": 4,
+      "name": "Floyd Mayweather",
+      "time": "4:00PM",
+      "type": "New Patient"
     }
   ]
 }
